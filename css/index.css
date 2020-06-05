@@ -17,6 +17,10 @@ p {
     line-height: 1.4;
 }
 
+h2 {
+  font-size: 1.25rem;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -165,3 +169,26 @@ footer nav a {
   margin-bottom: 1em;
 }
 
+#quad-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quad-section {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border: 1px dashed transparent;
+  border-bottom-color: black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.quad-section > * {
+  margin: .5rem 0;
+}
+
+#work-together {
+  padding: 1rem;
+  margin: 1rem 0;
+}
