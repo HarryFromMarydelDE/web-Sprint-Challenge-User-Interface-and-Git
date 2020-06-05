@@ -172,12 +172,13 @@ footer nav a {
 #quad-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .quad-section {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 48%;
   border: 1px dashed transparent;
   border-bottom-color: black;
   padding: 1rem;
@@ -191,4 +192,14 @@ footer nav a {
 #work-together {
   padding: 1rem;
   margin: 1rem 0;
+}
+
+.learn-more {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: .5rem;
+  text-decoration: none;
+  color: black;
+  width: 40%;
+  text-align: center;
 }
