@@ -41,8 +41,6 @@ header {
 header nav a {
   text-decoration: none;
   color: black;
-  /* align-items: flex-end; */
-  /* text-align: bottom; */
 }
 
 .top-content {
@@ -158,3 +156,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#section-about {
+  border-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: black;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
