@@ -38,7 +38,7 @@ Semantic HTML helps identifying the meaning of parts of the HTML in addition to 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-```display: block``` generates a line break after each element, and allows elements to be assigned a height and width. ```display: inline```. Does not add a line break and does not allow elements to be assigned a height and width.
+```display: block``` generates a line break after each element, and allows elements to be assigned a height and width. ```display: inline``` does not add a line break and does not allow elements to be assigned a height and width.
 
 3. What are the 4 areas of the box model?
 
